@@ -4,7 +4,7 @@
 
 body {
     margin: 0px !important;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .row::after {
@@ -280,7 +280,7 @@ span.span-subtext {
 
 .get-converter-btn:hover{
     transform: scale(1.03);
-    box-shadow: 1.8px 4px 10px 0.4px;   
+    box-shadow: 1.8px 4px 10px 0.4px;
 }
 
 
@@ -849,7 +849,7 @@ h4.step1 {
     z-index: 1;
     right: 10%;
     top: 10%;
-    font-size: 17px;  
+    font-size: 17px;
 }
 
 
@@ -901,7 +901,7 @@ h4.step1 {
     bottom: 30px;
     font-size: 17px;
   }
-  
+
 
   #snackbar-firefox.showfirefox {
     visibility: visible;
@@ -927,23 +927,23 @@ h4.step1 {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
   }
-  
+
   @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
+    from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
   }
-  
-  
+
+
   @keyframes fadein {
     from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
   }
-  
+
   @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
+    from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
-  
+
   @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
@@ -1028,15 +1028,15 @@ h4.step1 {
       align-items: center;
       cursor: pointer;
   }
-  
-  
+
+
   .get-converter-text {
       font-size: 35px;
       line-height: 38px;
       color: #fff;
       font-weight: bolder;
   }
-  
+
   .get-converter-text::after {
       margin-left: 21px;
       content: url('../assets/test_png/shape-18.png');
@@ -1051,7 +1051,7 @@ h4.step1 {
   .mycontainer {
     background: url('../assets/test_png/vector-smart-object.png') no-repeat;
     background-size: 100% 100%;
-    width: 100%;  
+    width: 100%;
     height: 100%;
 }
 
@@ -1169,7 +1169,7 @@ h4.step1 {
 .third-section-left-padding-recipe {
     padding-left: 0px;
     height: 350px;
-    padding-top: 86px; 
+    padding-top: 86px;
   }
 
 
@@ -1231,7 +1231,7 @@ h4.step1 {
 .get-converter-button-single-2 {
     margin-left: 78px;
     width: 80%;
-    
+
 }
 
 
@@ -1244,9 +1244,9 @@ h4.step1 {
 
 
 .get-converter-button-single-3 {
-    
+
     margin-left: 78px;
-    width: 80%;   
+    width: 80%;
 }
 
 .get-converter-btn-no-shadow-3 {
@@ -1383,7 +1383,7 @@ h4.step1 {
         margin-right: 100px;
     }
 
-    
+
 
 
     .get-converter-button-single-1 {
@@ -1584,7 +1584,7 @@ h4.step1 {
         padding: 20px;
     }
 
-    
+
 
 
     .get-converter-button-single-1 {
@@ -1707,22 +1707,22 @@ h4.step1 {
     }
 }
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
 
         .logo-img {
             width: 70%;
         }
-    
-    
+
+
         h5 {
             font-size: 12px;
             line-height: 20px;
             margin: 0px;
         }
-    
+
         h1.h1-bold {
             text-transform: uppercase;
             color: #000000;
@@ -1732,7 +1732,7 @@ h4.step1 {
             width: 100%;
             text-align: center;
         }
-    
+
         h1.h1-thin {
             text-transform: uppercase;
             font-size: 30px;
@@ -1743,7 +1743,7 @@ h4.step1 {
             margin-bottom: 5px;
             text-align: center
         }
-    
+
         span.span-subtext {
             font-size: 15px;
             font-weight: normal;
@@ -1754,21 +1754,21 @@ h4.step1 {
             text-align: left;
             color: #000000;
         }
-    
+
         .get-converter-btn{
             width: 250px;
             height: 60px;
             margin-top: 20px;
             margin-left: 20px;
         }
-    
+
         .get-converter-text {
             font-size: 25px;
             line-height: 38px;
             color: #fff;
             font-weight: bolder;
         }
-    
+
         .get-converter-text::after {
             margin-left: 21px;
             content: url('../assets/test_png/shape-18.png');
@@ -1776,14 +1776,14 @@ h4.step1 {
             align-items: center;
             vertical-align: middle;
         }
-    
+
         p.policy-text {
             font-size: 12px;
             color: #2a2a2a;
             letter-spacing: normal;
             margin: 20px;
         }
-    
+
         .mac-image {
             top: -50px;
             left: 8px;
@@ -1795,25 +1795,25 @@ h4.step1 {
             width: 70%;
             height: 87%;
         }
-    
-    
+
+
         .screen-unit-coverter {
             position: absolute;
             top: 20px;
             left: 107px;
             width: 100px;
         }
-    
+
         h1.how-to-get-started {
             font-size: 16px;
         }
-    
+
         p{
             font-size: 12px;
         }
-    
-    
-    
+
+
+
         .units {
             display: flex;
             justify-content: center;
@@ -1823,10 +1823,10 @@ h4.step1 {
             padding-left: 50px;
             padding-right: 50px;
         }
-    
-        
-    
-    
+
+
+
+
         .get-converter-button-single-1 {
             margin-top: 0px;
             display: flex;
@@ -1838,14 +1838,14 @@ h4.step1 {
             align-items: center;
             margin-bottom: 56px;
         }
-    
+
         .get-converter-text {
             font-size: 18px;
             line-height: 38px;
             color: #fff;
             font-weight: bolder;
         }
-    
+
         .get-converter-btn-no-shadow {
             margin-top: 55px;
             width: 410px;
@@ -1858,8 +1858,8 @@ h4.step1 {
             cursor: pointer;
             transition: all 0.3s ease-in-out;
         }
-    
-    
+
+
         .get-converter-btn-no-shadow-3 {
             margin-top: 70px;
             width: 424px;
@@ -1871,13 +1871,13 @@ h4.step1 {
             align-items: center;
             cursor: pointer;
         }
-    
+
         .right-btm-scale-2 {
             position: relative;
             top: -36px;
             left: 2px;
         }
-    
+
         .right-btm-main-2 {
             position: absolute;
             top: 19px;
@@ -1886,13 +1886,13 @@ h4.step1 {
             height: 100%;
             box-shadow: 0px 150px 150px -145px;
         }
-    
+
         .get-converter-button-single-2 {
             margin-left: 40px;
             width: 80%;
         }
-    
-    
+
+
         .get-converter-btn-no-shadow {
             margin-top: 55px;
             width: 446px;
@@ -1905,10 +1905,10 @@ h4.step1 {
             cursor: pointer;
             transition: all 0.3s ease-in-out;
         }
-    
-    
-    
-    
+
+
+
+
     .get-converter-btn-no-shadow-3 {
         margin-top: 100px;
         width: 446px;
@@ -1920,20 +1920,20 @@ h4.step1 {
         align-items: center;
         cursor: pointer;
     }
-    
-    
-    
+
+
+
         .left-btm-main-1{
             width: 89%;
             left: 0px;
         }
-    
+
         .get-converter-button-single-3 {
             margin-left: 40px;
             width: 80%;
         }
-    
-    
+
+
         .footer {
             color: #000000;
             display: flex;
@@ -1950,22 +1950,22 @@ h4.step1 {
 
 
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 667px)
     and (-webkit-device-pixel-ratio : 2) {
 
         .logo-img {
             width: 70%;
         }
-    
-    
+
+
         h5 {
             font-size: 12px;
             line-height: 20px;
             margin: 0px;
         }
-    
+
         h1.h1-bold {
             text-transform: uppercase;
             color: #000000;
@@ -1975,7 +1975,7 @@ h4.step1 {
             width: 100%;
             text-align: center;
         }
-    
+
         h1.h1-thin {
             text-transform: uppercase;
             font-size: 30px;
@@ -1986,7 +1986,7 @@ h4.step1 {
             margin-bottom: 5px;
             text-align: center
         }
-    
+
         span.span-subtext {
             font-size: 15px;
             font-weight: normal;
@@ -1997,21 +1997,21 @@ h4.step1 {
             text-align: left;
             color: #000000;
         }
-    
+
         .get-converter-btn{
             width: 250px;
             height: 60px;
             margin-top: 20px;
             margin-left: 20px;
         }
-    
+
         .get-converter-text {
             font-size: 25px;
             line-height: 38px;
             color: #fff;
             font-weight: bolder;
         }
-    
+
         .get-converter-text::after {
             margin-left: 21px;
             content: url('../assets/test_png/shape-18.png');
@@ -2019,14 +2019,14 @@ h4.step1 {
             align-items: center;
             vertical-align: middle;
         }
-    
+
         p.policy-text {
             font-size: 12px;
             color: #2a2a2a;
             letter-spacing: normal;
             margin: 20px;
         }
-    
+
         .mac-image {
             top: -50px;
             left: 8px;
@@ -2038,25 +2038,25 @@ h4.step1 {
             width: 70%;
             height: 84%;
         }
-    
-    
+
+
         .screen-unit-coverter {
             position: absolute;
             top: 20px;
             left: 107px;
             width: 100px;
         }
-    
+
         h1.how-to-get-started {
             font-size: 16px;
         }
-    
+
         p{
             font-size: 12px;
         }
-    
-    
-    
+
+
+
         .units {
             display: flex;
             justify-content: center;
@@ -2066,10 +2066,10 @@ h4.step1 {
             padding-left: 50px;
             padding-right: 50px;
         }
-    
-        
-    
-    
+
+
+
+
         .get-converter-button-single-1 {
             margin-top: 0px;
             display: flex;
@@ -2081,14 +2081,14 @@ h4.step1 {
             align-items: center;
             margin-bottom: 56px;
         }
-    
+
         .get-converter-text {
             font-size: 18px;
             line-height: 38px;
             color: #fff;
             font-weight: bolder;
         }
-    
+
         .get-converter-btn-no-shadow {
             margin-top: 55px;
             width: 410px;
@@ -2101,8 +2101,8 @@ h4.step1 {
             cursor: pointer;
             transition: all 0.3s ease-in-out;
         }
-    
-    
+
+
         .get-converter-btn-no-shadow-3 {
             margin-top: 70px;
             width: 424px;
@@ -2114,13 +2114,13 @@ h4.step1 {
             align-items: center;
             cursor: pointer;
         }
-    
+
         .right-btm-scale-2 {
             position: relative;
             top: -36px;
             left: 2px;
         }
-    
+
         .right-btm-main-2 {
             position: absolute;
             top: 19px;
@@ -2129,13 +2129,13 @@ h4.step1 {
             height: 100%;
             box-shadow: 0px 150px 150px -145px;
         }
-    
+
         .get-converter-button-single-2 {
             margin-left: 50px;
             width: 250px;
         }
-    
-    
+
+
         .get-converter-btn-no-shadow {
             margin-top: 55px;
             width: 446px;
@@ -2148,10 +2148,10 @@ h4.step1 {
             cursor: pointer;
             transition: all 0.3s ease-in-out;
         }
-    
-    
-    
-    
+
+
+
+
         .get-converter-btn-no-shadow-3 {
             margin-top: 100px;
             width: 410px;
@@ -2164,20 +2164,20 @@ h4.step1 {
             align-items: center;
             cursor: pointer;
         }
-    
-    
-    
+
+
+
         .left-btm-main-1{
             width: 89%;
             left: 0px;
         }
-    
+
         .get-converter-button-single-3 {
             margin-left: 40px;
             width: 80%;
         }
-    
-    
+
+
         .footer {
             color: #000000;
             display: flex;
@@ -2305,7 +2305,7 @@ h4.step1 {
         padding-right: 50px;
     }
 
-    
+
 
 
     .get-converter-button-single-1 {
@@ -2430,9 +2430,9 @@ h4.step1 {
 }
 
 
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px)
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
     .header {
@@ -2511,15 +2511,15 @@ h4.step1 {
       align-items: center;
       cursor: pointer;
   }
-  
-  
+
+
   .get-converter-text {
       font-size: 35px;
       line-height: 38px;
       color: #fff;
       font-weight: bolder;
   }
-  
+
   .get-converter-text::after {
       margin-left: 21px;
       content: url('../assets/test_png/shape-18.png');
@@ -2534,7 +2534,7 @@ h4.step1 {
   .mycontainer {
     background: url('../assets/test_png/vector-smart-object.png') no-repeat;
     background-size: 100% 100%;
-    width: 100%;  
+    width: 100%;
     height: 100%;
 }
 
@@ -2652,7 +2652,7 @@ h4.step1 {
 .third-section-left-padding-recipe {
     padding-left: 0px;
     height: 350px;
-    padding-top: 86px; 
+    padding-top: 86px;
   }
 
 
@@ -2714,7 +2714,7 @@ h4.step1 {
 .get-converter-button-single-2 {
     margin-left: 78px;
     width: 80%;
-    
+
 }
 
 
@@ -2727,9 +2727,9 @@ h4.step1 {
 
 
 .get-converter-button-single-3 {
-    
+
     margin-left: 78px;
-    width: 80%;   
+    width: 80%;
 }
 
 .get-converter-btn-no-shadow-3 {
@@ -2777,7 +2777,7 @@ h4.step1 {
     top: 10%;
     font-size: 17px;
   }
-    
+
 }
 
 
@@ -2856,10 +2856,3 @@ h4.step1 {
     }
 
 }
-
-
-
-
-
-
-   
