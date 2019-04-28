@@ -2856,3 +2856,11 @@ h4.step1 {
     }
 
 }
+
+@media only screen and (max-width:1366px) and (min-width:768px){
+    .left-btm-scale-1{
+        position: absolute;
+        top: 165px;
+        right: 0px;
+    }
+}
